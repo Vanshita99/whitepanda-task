@@ -47,7 +47,7 @@ class CarRegForm extends Component {
       this.setState({ message: "Phone Number cannot be null" });
     } else {
       alert("Form filled");
-      window.location.href = "http://localhost:3000/home";
+      window.location.href = "https://vanshita99.github.io/whitepanda-task";
       console.log(`Form submitted:`);
       console.log(`Renter Name: ${this.state.rname}`);
       console.log(`Renter Phone Number: ${this.state.rphone}`);
