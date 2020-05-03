@@ -64,7 +64,7 @@ class FirstCarPage extends Component {
                   </button>
                 </Col>
                 <Col sm={6}>
-                  <Nav.Link href="/form">
+                  <Link to="/form">
                     <button
                       type="button"
                       class="btn btn-primary btn-md"
@@ -73,7 +73,7 @@ class FirstCarPage extends Component {
                     >
                       Book Now
                     </button>
-                  </Nav.Link>
+                  </Link>
                 </Col>
               </Row>
             </div>
